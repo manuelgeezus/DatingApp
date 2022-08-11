@@ -1,5 +1,4 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
-import { getAllLifecycleHooks } from '@angular/compiler/src/lifecycle_reflector';
 import { Injectable } from '@angular/core';
 import { of } from 'rxjs';
 import { map, take } from 'rxjs/operators';
