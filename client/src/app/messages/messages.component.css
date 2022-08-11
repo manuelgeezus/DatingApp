@@ -1,3 +1,7 @@
 .img-circle {
     max-height: 50px;
 }
+
+.table > :not(:first-child) {
+    border-top: 2px solid currentColor;
+}
